@@ -3,9 +3,7 @@
     "parserOptions": {
         "project": "./tsconfig.json"
     },
-    "module.exports": {
-        "rules": {
-          "@typescript-eslint/strict-boolean-expressions": "warn"
-        }
-      }
+    "rules": {
+        "@typescript-eslint/strict-boolean-expressions": "off"
+    }
 }
